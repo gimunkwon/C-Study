@@ -1,0 +1,27 @@
+# Auto detect text files and normalize line endings to LF in the repo
+* text=auto eol=lf
+
+# Force CRLF for Windows-specific project files
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+*.vcxproj.filters text eol=crlf
+*.vcxproj.user text eol=crlf
+
+# Source files
+*.c text
+*.h text
+*.hpp text
+*.cpp text
+*.cc text
+*.inl text
+
+# Markdown / docs
+*.md text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
